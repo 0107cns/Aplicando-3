@@ -1,1 +1,5 @@
-# Aplicando-3
+1. Generalización simbólica:
+La orientación a objetos en JavaScript se basa en prototipos, no en clases tradicionales. Los objetos pueden crearse mediante funciones constructoras (usando new) o directamente con literales. La herencia se logra a través de la propiedad prototype, permitiendo que los objetos compartan métodos y atributos. Si una propiedad no se encuentra en un objeto, se busca en su cadena de prototipos (__proto__) hasta llegar a null. La palabra clave this dentro de un método hace referencia al objeto que invoca la función.
+
+2. Creencias de los profesionales:
+Se considera que el modelo basado en prototipos ofrece mayor flexibilidad que el de clases rígidas de otros lenguajes. Permite modificar objetos y herencias en tiempo real, mezclar distintos estilos (funcional, estructurado u orientado a objetos) y adaptarse fácilmente a distintos contextos. Los desarrolladores valoran su dinamismo y libertad, aunque reconocen que puede volverse complejo si no se organiza correctamente el código.

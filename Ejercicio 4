@@ -1,0 +1,4 @@
+En los ejercicios 2 y 3 usé ideas de POO para ordenar el código.
+Apliqué encapsulamiento al poner los atributos (como num1, num2, o los arrays de tareas) como private. Esto fuerza a que el código principal (el del menú) no pueda tocar esos datos directamente y tenga que usar los métodos públicos (sumar(), agregarTarea()), lo cual es más seguro.
+También usé abstracción, que es esconder la lógica complicada. Cuando el script principal llama a miLista.completarTarea(), no sabe nada de cómo muevo la tarea de un array a otro por dentro; solo pide la acción y funciona.
+No usé herencia ni polimorfismo porque los programas eran simples. No necesitaba crear diferentes "tipos" de calculadoras (como una CalculadoraCientifica) ni distintos "tipos" de tareas (como TareaUrgente), así que no hicieron falta.
